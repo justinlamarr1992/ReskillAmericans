@@ -91,13 +91,17 @@ p {
 footer {
   height: 15vh;
   width: 100vw;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-end; */
 }
 /* div is footer */
 .icons {
   padding-right: 100px;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
 }
 i {
   height: 44px;
@@ -106,17 +110,21 @@ i {
   border: 5px solid white;
   border-radius: 50%;
 }
+
 .fab:hover {
   color: hsl(300, 69%, 71%);
 }
 
-@media (min-width: 1440px) {
+/* @media (max-width: 1439px) {
   .big-div {
     flex-flow: row;
   }
-}
+} */
 
 @media (max-width: 1439px) {
+  .main {
+    flex-flow: column;
+  }
   header {
     height: 10%;
   }
