@@ -100,7 +100,11 @@ footer {
   padding-right: 100px;
 }
 i {
+  height: 44px;
+  width: 44px;
   padding: 30px;
+  border: 5px solid white;
+  border-radius: 50%;
 }
 .fab:hover {
   color: hsl(300, 69%, 71%);
